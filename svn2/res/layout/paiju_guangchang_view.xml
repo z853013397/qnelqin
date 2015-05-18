@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <TextView
+            android:id="@+id/guangchang_ed1"
+            style="@style/guangchang_textview"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:text="打多大" />
+
+        <TextView
+            android:id="@+id/guangchang_ed2"
+            style="@style/guangchang_textview"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="1"
+            android:text="缺人" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/square_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </ListView>
+
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/main_iv_mytouxiang"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/photo_wdzz1" />
+
+        <TextView
+            android:id="@+id/main_tv_tableinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/main_iv_mytouxiang"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/main_iv_mytouxiang"
+            android:text="百战百胜开始"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/main_tv_timeinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/main_tv_tableinfo"
+            android:layout_marginLeft="17dp"
+            android:layout_toRightOf="@id/main_tv_tableinfo"
+            android:text="4分钟"
+            android:textSize="10sp" />
+
+        <ImageView
+            android:id="@+id/main_iv_seat1"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignBottom="@id/main_iv_mytouxiang"
+            android:layout_alignLeft="@id/main_tv_tableinfo"
+            android:background="@drawable/photo_wdzz2" />
+
+        <ImageView
+            android:id="@+id/main_iv_seat2"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignBottom="@+id/main_iv_mytouxiang"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/main_iv_seat1"
+            android:background="@drawable/photo_wdzz2" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/main_iv_seat2"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="28dp"
+            android:text="还缺0人开局" />
+
+        <TextView
+            android:id="@+id/main_tv_game_stuta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/main_tv_tableinfo"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="25dp"
+            android:text="斗地主" />
+    </RelativeLayout>
+
+</LinearLayout>

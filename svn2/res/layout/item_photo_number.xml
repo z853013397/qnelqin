@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+
+    <TextView
+        android:id="@+id/color_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/color_image"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:textSize="15dip"
+        android:text="haoma" />
+
+    <TextView
+        android:id="@+id/color_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/color_title"
+        android:layout_toRightOf="@+id/color_image"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:textSize="20dip" 
+        android:text="这个是什么"/>
+
+</RelativeLayout>

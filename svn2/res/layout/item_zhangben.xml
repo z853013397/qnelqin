@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp" >
+
+    <TextView
+        android:id="@+id/zhangben_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:text="31号上午9点斗地主"
+        android:layout_marginLeft="15dp"/>
+    <TextView
+        android:id="@+id/zhangben_info"
+        android:layout_below="@id/zhangben_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="#A4A5A7"
+        android:singleLine="true"
+        android:layout_marginTop="10dp"
+        android:text="我赢600，玩家1输300，玩家2输300"
+        android:layout_marginLeft="15dp"/>
+
+</RelativeLayout>

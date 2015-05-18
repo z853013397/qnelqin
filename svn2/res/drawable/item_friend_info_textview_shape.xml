@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <!--这个是牌局中好友列表中的斗地主textview  -->
+    <solid android:color="#99CF83"/>
+    <corners android:radius="7dp"/>
+
+</shape>

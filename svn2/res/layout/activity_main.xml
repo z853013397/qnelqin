@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <com.qunl.qunlerih.views.customview.CustomViewPager 
+        android:id="@+id/main_cvp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/main_rg_bottom">
+        
+    </com.qunl.qunlerih.views.customview.CustomViewPager>
+    
+    
+    <RadioGroup
+        android:id="@+id/main_rg_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg_xtcz"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/main_bottom_btn_paiju"
+            style="@style/main_tab_bottom_button"
+            android:drawableTop="@drawable/main_bottom_button_pj"
+            android:text="牌局" />
+
+        <RadioButton
+            android:id="@+id/main_bottom_btn_zhangben"
+            style="@style/main_tab_bottom_button"
+            android:drawableTop="@drawable/main_bottom_button_zb"
+            android:text="账本" />
+
+        <RadioButton
+            android:id="@+id/main_bottom_btn_haoyou"
+            style="@style/main_tab_bottom_button"
+            android:drawableTop="@drawable/main_bottom_button_hy"
+            android:text="好友" />
+
+        <RadioButton
+            android:id="@+id/main_bottom_btn_wo"
+            style="@style/main_tab_bottom_button"
+            android:drawableTop="@drawable/main_bottom_button_me"
+            android:text="我" />
+    </RadioGroup>
+
+</RelativeLayout>

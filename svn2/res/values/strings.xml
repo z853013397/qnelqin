@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">QunlHall</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="err_login_message">登录失败!</string>
+    <string name="err_username_required">请输入别名!</string>
+    
+    <string name="err_create_table_message">开台失败!</string>
+
+</resources>

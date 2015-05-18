@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp">
+
+    <ImageView
+        android:id="@+id/haoyou_paiyou_listview"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/pic_woman" />
+
+    <TextView
+        android:id="@+id/haoyou_paiyou_tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/haoyou_paiyou_listview"
+        android:layout_toRightOf="@id/haoyou_paiyou_listview"
+        android:text="举头望明月"
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/haoyou_paiyou_tv_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/haoyou_paiyou_listview"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/haoyou_paiyou_listview"
+        android:text="你来我家打，我开台"
+        android:textColor="#6E6B6B"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/haoyou_paiyou_tv_stuta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/haoyou_paiyou_listview"
+        android:layout_alignParentRight="true"
+        android:text="空闲"
+        android:textColor="#42DA3E"
+        android:layout_marginRight="5dp"/>
+
+</RelativeLayout>

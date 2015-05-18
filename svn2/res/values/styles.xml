@@ -1,0 +1,84 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="main_tab_bottom_button">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:button">@null</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/bottom_text_color</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:width">0dp</item>
+    </style>
+
+    <style name="main_tab_top_button">
+        <item name="android:width">0dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:button">@null</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/top_text_color</item>
+    </style>
+
+    <style name="guangchang_textview">
+        <item name="android:paddingLeft">55dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:drawableRight">@drawable/paiju_guangchang_textview_shape</item>
+        <item name="android:paddingRight">50dp</item>
+    </style>
+    <!-- 这个是dialog的主题风格 -->
+    <style name="custom_dialog_theme" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 是否有标题 -->
+        <!-- <item name="android:windowNoTitle">false</item> -->
+        <!-- 是否浮现在activity之上 -->
+        <!-- <item name="android:windowIsFloating">true</item> -->
+        <!-- 是否模糊 -->
+        <!-- <item name="android:backgroundDimEnabled">false</item> -->
+    </style>
+
+    <style name="dialog_textview">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:layout_margin">15dp</item>
+        <item name="android:background">@drawable/dialog_yqhy_shape</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <!-- 这个是app的标题风格 这个是没有图片的标题栏 -->
+    <style name="app_titel_no_image">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">#060606</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">55dp</item>
+    </style>
+
+    <style name="dialog_animation" parent="android:Animation">
+        <item name="@android:windowEnterAnimation">@anim/dialog_enter</item>
+<!-- 进入时的动画   -->        <item name="@android:windowExitAnimation">@anim/dialog_exit</item>
+  </style>
+<!--//退出时的动画    -->
+</resources>

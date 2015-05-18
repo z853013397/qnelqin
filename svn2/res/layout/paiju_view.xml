@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/include_paiju" 
+        layout="@layout/inlcue_app_title_with_image" />
+
+    <RadioGroup
+        android:id="@+id/main_rg_top"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#F8F8F8"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <RadioButton
+            android:id="@+id/btn_pengyoupaiju"
+            style="@style/main_tab_top_button"
+            android:background="@drawable/main_top_button_pypj"
+            android:text="朋友牌局" />
+
+        <RadioButton
+            android:id="@+id/btn_fujinpaiju"
+            style="@style/main_tab_top_button"
+            android:background="@drawable/main_top_button_fjpj"
+            android:text="附近牌局" />
+
+        <RadioButton
+            android:id="@+id/btn_guangchang"
+            style="@style/main_tab_top_button"
+            android:background="@drawable/main_top_button_gc"
+            android:text="广场" />
+    </RadioGroup>
+
+    <com.qunl.qunlerih.views.customview.CustomViewPager
+        android:id="@+id/paiju_cvp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

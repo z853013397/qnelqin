@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="15dp"
+    android:paddingLeft="15dp"
+    android:paddingTop="15dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/item_friendlist_iv_touxiang"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/a11" />
+
+        <TextView
+            android:id="@+id/item_friend_tableinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/item_friendlist_iv_touxiang"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/item_friendlist_iv_touxiang"
+            android:text="百战百胜开台"
+            android:textColor="#0F0F0F"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/item_friend_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/item_friend_tableinfo"
+            android:layout_below="@id/item_friend_tableinfo"
+            android:layout_marginTop="5dp"
+            android:drawableLeft="@drawable/photo_location"
+            android:text="深圳市"
+            android:textColor="#0F0F0F"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/item_friend_timeinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/item_friend_tableinfo"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/item_friend_tableinfo"
+            android:text="4分钟"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/item_friend_doudizhu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/item_friendlist_iv_touxiang"
+            android:layout_alignLeft="@id/item_friend_location"
+            android:background="@drawable/item_friend_info_textview_shape"
+            android:ems="3"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="斗地主"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/item_friend_join"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/item_friendlist_iv_touxiang"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/item_friend_list_textview_login"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="5dp"
+            android:scaleX="0.96"
+            android:text="加入"
+            android:focusable="false"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/item_friend_jiuqueni"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/item_friendlist_iv_touxiang"
+            android:layout_marginRight="25dp"
+            android:text="就缺你"
+            android:textColor="#B76666" />
+
+        <TextView
+            android:id="@+id/item_friend_fenshuinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/item_friendlist_iv_touxiang"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/item_friend_doudizhu"
+            android:ems="6"
+            android:singleLine="true"
+            android:text="1分，不封顶"
+            android:textColor="#B76666" />
+    </RelativeLayout>
+
+</LinearLayout>
